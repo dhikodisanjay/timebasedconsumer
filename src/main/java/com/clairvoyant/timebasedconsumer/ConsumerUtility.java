@@ -24,7 +24,7 @@ public class ConsumerUtility {
 	public static KafkaConsumer<String, String> consumer2 = null;
 
 	static {
-		System.out.println("initializing Consumer1 config***********");
+		System.out.println("initializing Consumer1 config*****####******");
 		String topic = "testing";
 		Properties properties1 = new Properties();
 		Properties properties2 = new Properties();
